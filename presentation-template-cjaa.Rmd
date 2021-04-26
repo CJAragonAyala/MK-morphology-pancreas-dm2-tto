@@ -1,17 +1,17 @@
 ---
-title: "Título"
-subtitle: "Subtítulo"
+title: "Remisión a los 2 años de la diabetes tipo 2 y morfología del páncreas: un análisis post-hoc del ensayo abierto y aleatorizado por conglomerados DiRECT [@al-mrabeh20202year]"
+subtitle: "Resumen" 
 author: 
-  - "Carlos J. Aragón-Ayala^1,2,a^"
+  - "Carlos J. Aragón-Ayala" #^1,2,a^"
 institute:
-  - "1. Universidad Nacional de San Agustín de Arequipa"
-  - "2. Sociedad Científica de Estudiantes de Medicina Agustinos (SOCIEMA)"
-  - "a. carjearay.99@gmail.com; caragonay@unsa.edu.pe"
+#  - "1. Universidad Nacional de San Agustín de Arequipa"
+#  - "2. Sociedad Científica de Estudiantes de Medicina Agustinos (SOCIEMA)"
+#  - "a. carjearay.99@gmail.com; caragonay@unsa.edu.pe"
 date: "Actualizado el `r format(Sys.time(), '%d/%b/%Y')`"
 lang: es-PE
 links-as-notes: false
-bibliography: prueba.bib
-nocite: '@*'
+bibliography: main.bib
+# nocite: '@*'
 csl: '`r paste(params$wd, "CSL/ama.csl", sep="")`'
 params:
   d: !r format(Sys.time(), '%d/%b/%Y')
@@ -30,31 +30,52 @@ output:
 #    fig_height: 
 #    fig_width: 
     includes: 
-      - in_header: '`r paste(params$wd, "templates/headertex.tex", sep="")`'
+      - in_header: null
       - before_body: null
       - after_body: null
-    keep_tex: true
+    keep_tex: false
     md_extensions: -autolink_bare_uris
     pandoc_args: null
     template: null
     toc: false
-
 
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Description
-## 
+# Introducción
 
+## Morfología del pancreas
 
-## asdasd
+- Volumen disminuido en diabetes mellitus tipo 2 (DM2) (20-30%)
+- Bordes irregulares
 
-### dasdasd
+## ¿Alteraciones morfológicas como predisponentes o secundarios a la DM2?
 
+- Secundario
+- Deficiencia de la función endocrina:
+  - Insulina como factor de crecimiento
+  - Otros factores de crecimiento
+  - Grasa intrapancreática como fibrosante
+  
+## Antecedentes
 
+- Estudio previo no encontró aumento de volumen en pacientes cuya glucosa se mantuvo como no diabética por **6 meses**.
+- Hipótesis: El efecto sería a mayor plazo
+- El ensayo clínico DiRECT ha logrado un buen control de glucosa en el 36% de su grupo intervención en **2 años**.
 
+## Objetivos
+
+- Determinar si ocurren cambios en el volumen y forma del páncreas durante 2 años de remisión de DM2
+
+# Metodología
+
+## Diseño de estudio
+
+Análisis post-hoc de la base de datos DiRECT
+
+- Los participantes elegibles tenían entre 20 y 65 años de edad, habían sido diagnosticados de diabetes tipo 2 en los 6 años anteriores y tenían un IMC de 27 a 45 kg/m². Los criterios de exclusión incluían el uso actual de insulina, una HbA1c superior al 12% (108 mmol/mol) o superior, una pérdida de peso de más de 5 kg en los 6 meses anteriores y una tasa de filtración glomerular estimada registrada recientemente inferior a 30 mL/min por 1-73 m².
 
 ## Referencias {.allowframebreaks}
 
