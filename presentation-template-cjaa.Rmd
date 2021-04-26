@@ -1,0 +1,63 @@
+---
+title: "Título"
+subtitle: "Subtítulo"
+author: 
+  - "Carlos J. Aragón-Ayala^1,2,a^"
+institute:
+  - "1. Universidad Nacional de San Agustín de Arequipa"
+  - "2. Sociedad Científica de Estudiantes de Medicina Agustinos (SOCIEMA)"
+  - "a. carjearay.99@gmail.com; caragonay@unsa.edu.pe"
+date: "Actualizado el `r format(Sys.time(), '%d/%b/%Y')`"
+lang: es-PE
+links-as-notes: false
+bibliography: prueba.bib
+nocite: '@*'
+csl: '`r paste(params$wd, "CSL/ama.csl", sep="")`'
+params:
+  d: !r format(Sys.time(), '%d/%b/%Y')
+  wd: "G:/My Drive/Reality/"
+output:
+  beamer_presentation:
+    theme: boxes
+    colortheme: whale
+    fonttheme: structurebold
+    slide_level: 2
+    incremental: yes
+    latex_engine: xelatex
+    citation_package: default
+    dev: "png"
+    fig_caption: true
+#    fig_height: 
+#    fig_width: 
+    includes: 
+      - in_header: '`r paste(params$wd, "templates/headertex.tex", sep="")`'
+      - before_body: null
+      - after_body: null
+    keep_tex: true
+    md_extensions: -autolink_bare_uris
+    pandoc_args: null
+    template: null
+    toc: false
+
+
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Description
+## 
+
+
+## asdasd
+
+### dasdasd
+
+
+
+
+## Referencias {.allowframebreaks}
+
+<div id="refs"></div>
+
+## Appendix
